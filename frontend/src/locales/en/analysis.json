@@ -1,0 +1,10 @@
+{
+  "title": "Financial Analysis",
+  "intro": "Profit and loss, overall and crop by crop",
+  "subtitle": "Profit and loss for {{name}}",
+  "loading": "Loading your numbers...",
+  "formula": "Profit or Loss = Income − Expenses",
+  "overall": "Overall",
+  "cropByCrop": "Crop by crop",
+  "generalNote": "\"{{general}}\" shows money that is not linked to any crop, such as electricity bills or subsidies."
+}

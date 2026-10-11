@@ -1,0 +1,15 @@
+{
+  "title": "Reports",
+  "intro": "Monthly and crop-wise reports",
+  "subtitle": "Monthly and crop-wise reports for {{name}}",
+  "year": "Year",
+  "print": "🖨 Print report",
+  "monthlyTitle": "Monthly report — {{year}}",
+  "loadingMonthly": "Loading monthly report...",
+  "noData": "No income or expenses recorded in {{year}}.",
+  "month": "Month",
+  "totalYear": "Total {{year}}",
+  "cropTitle": "Crop-wise report",
+  "allTime": "All records, all years",
+  "loadingCrop": "Loading crop-wise report..."
+}

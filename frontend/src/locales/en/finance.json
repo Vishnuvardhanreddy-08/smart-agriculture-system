@@ -1,0 +1,29 @@
+{
+  "income": "Income",
+  "expenses": "Expenses",
+  "totalIncome": "Total Income",
+  "totalExpenses": "Total Expenses",
+  "profitLoss": "Profit / Loss",
+  "statusHeader": "Status",
+  "status": {
+    "PROFIT": "Profit",
+    "LOSS": "Loss",
+    "BREAK_EVEN": "Break-even"
+  },
+  "card": {
+    "PROFIT": { "title": "Profit", "note": "You are in profit" },
+    "LOSS": { "title": "Loss", "note": "You are in loss" },
+    "BREAK_EVEN": { "title": "Profit / Loss", "note": "Break-even: income equals expenses" }
+  },
+  "generalCrop": "General (no crop)",
+  "chart": {
+    "amount": "Amount",
+    "noData": "No income or expenses yet.",
+    "noCrops": "Add a crop to see its profit here."
+  },
+  "cropTable": {
+    "crop": "Crop",
+    "empty": "No crops yet. Add a crop on the Crops page.",
+    "total": "Total"
+  }
+}

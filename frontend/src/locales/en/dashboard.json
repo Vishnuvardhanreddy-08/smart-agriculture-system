@@ -1,0 +1,12 @@
+{
+  "title": "Dashboard",
+  "intro": "Your farm money at a glance",
+  "welcome": "Welcome, {{name}}",
+  "loading": "Loading your numbers...",
+  "incomeVsExpenses": "Income vs Expenses",
+  "cropProfit": "Crop-wise Profit",
+  "recentIncome": "Recent Income",
+  "recentExpenses": "Recent Expenses",
+  "viewAll": "View all",
+  "nothingYet": "Nothing recorded yet."
+}

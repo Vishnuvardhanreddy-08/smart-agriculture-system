@@ -1,0 +1,81 @@
+{
+  "appName": "Smart Agriculture",
+  "tagline": "Your farm income, expenses and profit, simple and clear",
+  "loading": "Loading...",
+  "logout": "Logout",
+  "language": {
+    "label": "Language"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "income": "Income",
+    "expenses": "Expenses",
+    "crops": "Crops",
+    "analysis": "Financial Analysis",
+    "reports": "Reports",
+    "toggleMenu": "Toggle menu"
+  },
+  "notice": {
+    "loginToSee": "Please <loginLink>log in</loginLink> to see your data."
+  },
+  "errors": {
+    "network": "Cannot reach the server. Please check your internet connection and try again.",
+    "sessionEnded": "Your session has ended. Please log in again.",
+    "generic": "Something went wrong. Please try again."
+  },
+  "actions": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "search": "Search",
+    "clear": "Clear"
+  },
+  "fields": {
+    "date": "Date",
+    "amountRupees": "Amount (₹)",
+    "amount": "Amount",
+    "crop": "Crop",
+    "season": "Season",
+    "description": "Description",
+    "actions": "Actions",
+    "total": "Total"
+  },
+  "filters": {
+    "searchText": "Search text",
+    "allCrops": "All crops",
+    "fromDate": "From date",
+    "toDate": "To date"
+  },
+  "form": {
+    "optionalCrop": "Crop (optional)",
+    "noCrop": "No crop (general)",
+    "optionalDescription": "Description (optional)",
+    "errors": {
+      "amount": "Amount must be greater than 0.",
+      "date": "Please choose the date."
+    }
+  },
+  "records": {
+    "showing_one": "Showing {{count}} record",
+    "showing_other": "Showing {{count}} records",
+    "noMatch": "No records match your search."
+  },
+  "seasons": {
+    "Kharif": "Kharif",
+    "Rabi": "Rabi",
+    "Zaid": "Zaid"
+  },
+  "categories": {
+    "Seeds": "Seeds",
+    "Fertilizer": "Fertilizer",
+    "Pesticide": "Pesticide",
+    "Labour": "Labour",
+    "Irrigation": "Irrigation",
+    "Equipment": "Equipment",
+    "Transport": "Transport",
+    "Electricity": "Electricity",
+    "Other": "Other"
+  }
+}

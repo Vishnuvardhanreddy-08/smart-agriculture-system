@@ -1,0 +1,43 @@
+/* Our own small styles. Bootstrap does most of the work. */
+
+/* Bootstrap sizes everything in "rem", so a bigger base size
+   makes ALL text, buttons and forms larger and easier for farmers to read. */
+html {
+    font-size: 18px;
+}
+
+body {
+    background-color: #f4f7f2; /* soft light green-grey */
+}
+
+/* When the language is Telugu (<html lang="te">):
+   - use the Noto Sans Telugu font (other fonts are the backup)
+   - use a taller line height, because Telugu letters have marks above and below */
+html[lang='te'] {
+    --bs-body-font-family: 'Noto Sans Telugu', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --bs-body-line-height: 1.7;
+}
+
+/* Big, easy-to-tap buttons and form fields (good for phones) */
+.btn,
+.form-control,
+.form-select {
+    min-height: 46px;
+}
+
+/* When the page is PRINTED: hide the menu bar and anything marked "no-print",
+   and remove the grey background and shadows so the paper looks clean. */
+@media print {
+    nav.navbar,
+    .no-print {
+        display: none !important;
+    }
+
+    body {
+        background-color: #ffffff;
+    }
+
+    .card {
+        box-shadow: none !important;
+    }
+}

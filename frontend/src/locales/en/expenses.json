@@ -1,0 +1,24 @@
+{
+  "title": "Expenses",
+  "intro": "Money you spent on your farm",
+  "subtitle": "Money spent by {{name}}",
+  "addTitle": "Add expense",
+  "editTitle": "Edit expense",
+  "category": "Category",
+  "chooseCategory": "Choose category...",
+  "amountPlaceholder": "e.g. 5000",
+  "descriptionPlaceholder": "e.g. Fertilizer purchased",
+  "add": "Add Expense",
+  "findTitle": "Find expense records",
+  "searchPlaceholder": "category or description",
+  "listTitle": "Expense records",
+  "loading": "Loading expenses...",
+  "empty": "No expenses recorded yet. Add your first expense above.",
+  "added": "Expense added.",
+  "updated": "Expense updated.",
+  "deleted": "Expense deleted.",
+  "confirmDelete": "Delete \"{{name}}\" of {{amount}}?",
+  "errors": {
+    "category": "Please choose the category."
+  }
+}

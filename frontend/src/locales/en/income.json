@@ -1,0 +1,24 @@
+{
+  "title": "Income",
+  "intro": "Money you earned from your farm",
+  "subtitle": "Money earned by {{name}}",
+  "addTitle": "Add income",
+  "editTitle": "Edit income",
+  "source": "Source",
+  "sourcePlaceholder": "e.g. Rice Sale",
+  "amountPlaceholder": "e.g. 35000",
+  "descriptionPlaceholder": "e.g. Sold rice crop",
+  "add": "Add Income",
+  "findTitle": "Find income records",
+  "searchPlaceholder": "source or description",
+  "listTitle": "Income records",
+  "loading": "Loading income...",
+  "empty": "No income recorded yet. Add your first income above.",
+  "added": "Income added.",
+  "updated": "Income updated.",
+  "deleted": "Income deleted.",
+  "confirmDelete": "Delete \"{{name}}\" of {{amount}}?",
+  "errors": {
+    "source": "Please enter the source (for example Rice Sale)."
+  }
+}

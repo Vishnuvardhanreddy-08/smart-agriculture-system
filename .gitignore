@@ -1,0 +1,52 @@
+######################################################################
+# SECRETS AND ENVIRONMENT FILES. NEVER COMMIT THESE.
+# Real values live in environment variables (IntelliJ, Render), not in files.
+######################################################################
+.env
+.env.*
+*.env
+# Exception: the example files with fake values ARE allowed.
+!.env.example
+*.pem
+*.key
+application-local.properties
+
+######################################################################
+# Java and Maven build output (it can be rebuilt, so it is not saved)
+######################################################################
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+*.log
+hs_err_pid*
+
+######################################################################
+# IntelliJ IDEA (personal settings, and run configurations that
+# contain our environment variables, including the database password)
+######################################################################
+.idea/
+.run/
+*.iws
+*.iml
+*.ipr
+out/
+
+######################################################################
+# Other editors
+######################################################################
+.vscode/
+
+######################################################################
+# Frontend (React) build output and downloaded packages
+######################################################################
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+npm-debug.log*
+
+######################################################################
+# Operating system files
+######################################################################
+.DS_Store
+Thumbs.db
