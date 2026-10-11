@@ -1,4 +1,7 @@
 # Smart Agriculture System
+## Status
+
+Work in progress: deployment to Render comes next.
 
 A full-stack web app that helps farmers record income and expenses, and see profit or loss
 for each crop. Available in English and Telugu.
