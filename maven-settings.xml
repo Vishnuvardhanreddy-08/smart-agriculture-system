@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Maven settings used ONLY when Docker builds the app on Render.
+  It tells Maven: "download libraries from this copy of Maven Central".
+  It contains no secrets (the mirror is public).
+-->
+<settings>
+    <mirrors>
+        <mirror>
+            <id>gcs-maven-central-mirror</id>
+            <name>Maven Central mirror on Google Cloud Storage</name>
+            <url>https://maven-central.storage-download.googleapis.com/maven2/</url>
+            <!-- "central" means: use this instead of the normal Maven Central address. -->
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+    </mirrors>
+</settings>
